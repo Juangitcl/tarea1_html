@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dbe8eb;
+    color: #620c0c;
+    margin: 20px;
+}
+
+div{
+    border: 2px solid black;
+}
+
+.div-titular{
+    border: 2px solid black;
+    margin: auto;
+    padding: 1em;
+    display: flex; /* Uso de flexbox */    
+    justify-content: space-around;
+}
+
+.div-titular:hover{
+    background-color: rgb(14, 132, 217);
+    font-size: 1.2rem;
+}
+
+.div-imagen-principal{
+    margin: auto;
+    
+    padding: 1em;
+    display: flex; /* Uso de flexbox */     
+    flex-direction: column; 
+}
+
+.div_efecto{
+ /*border: 1px solid black;*/
+ 
+}
+
+.div_efecto:hover{
+    background-color: rgb(218, 234, 245);
+    font-size: 1.5rem;
+}
